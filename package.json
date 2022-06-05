@@ -15,7 +15,8 @@
     "cli:args": "node src/cli/args.js --user 123 --email 456",
     "modules:cjs": "node src/modules/cjsToEsm.mjs",
     "hash:calcHash": "node src/hash/calcHash.js",
-    "streams:read": "node src/streams/read.js"
+    "streams:read": "node src/streams/read.js",
+    "streams:write": "node src/streams/write.js"
   },
   "repository": {
     "type": "git",
