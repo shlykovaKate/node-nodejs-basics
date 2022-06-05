@@ -12,7 +12,8 @@
     "fs:list": "node src/fs/list.js",
     "fs:read": "node src/fs/read.js",
     "cli:env": "RSS_user=123 RSS_email='456' node src/cli/env.js",
-    "cli:args": "node src/cli/args.js --user 123 --email 456"
+    "cli:args": "node src/cli/args.js --user 123 --email 456",
+    "modules:cjs": "node src/modules/cjsToEsm.mjs"
   },
   "repository": {
     "type": "git",
