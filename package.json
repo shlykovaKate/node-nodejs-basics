@@ -14,7 +14,8 @@
     "cli:env": "RSS_user=123 RSS_email='456' node src/cli/env.js",
     "cli:args": "node src/cli/args.js --user 123 --email 456",
     "modules:cjs": "node src/modules/cjsToEsm.mjs",
-    "hash:calcHash": "node src/hash/calcHash.js"
+    "hash:calcHash": "node src/hash/calcHash.js",
+    "streams:read": "node src/streams/read.js"
   },
   "repository": {
     "type": "git",
